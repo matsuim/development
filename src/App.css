@@ -8,6 +8,8 @@ html {
 }
 
 .App {
+  transform: scale(0.5);
+  transform-origin: 0 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;

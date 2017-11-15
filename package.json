@@ -2,9 +2,9 @@
   "name": "development",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://matsuim.github.io/development",
   "dependencies": {
     "gh-pages": "^1.0.0",
-    "homepage": "https://matsuim.github.io/development",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",
     "react-dom": "^16.0.0",

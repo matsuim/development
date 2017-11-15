@@ -83,7 +83,7 @@ class FilteredList extends Component {
             // render type filter controls
             }
             <div className="individual_control">
-              <DropdownButton id="typeDropdown" title={"Type"} bsSize="large" onSelect={this.handleTypeSelect}>
+              <DropdownButton id="typeDropdown" title={"Type"} bsSize="small" onSelect={this.handleTypeSelect}>
                 <MenuItem eventKey="">All</MenuItem>
                 <MenuItem eventKey="Bernese Mountain Dog">Bernese Mountain Dog</MenuItem>
                 <MenuItem eventKey="Chesapeake Bay Retriever">Chesapeake Bay Retriever</MenuItem>
@@ -102,7 +102,7 @@ class FilteredList extends Component {
             // render size filter controls
             }
             <div className="individual_control">
-              <DropdownButton id="sizeDropdown" title={"Size"} bsSize="large" onSelect={this.handleSizeSelect}>
+              <DropdownButton id="sizeDropdown" title={"Size"} bsSize="small" onSelect={this.handleSizeSelect}>
                 <MenuItem eventKey="">All</MenuItem>
                 <MenuItem eventKey="Small">Small</MenuItem>
                 <MenuItem eventKey="Medium">Medium</MenuItem>
@@ -128,7 +128,7 @@ class FilteredList extends Component {
             <h3>Sort by age:</h3>
             <div className="individual_control">
               <ButtonToolbar>
-                <ToggleButtonGroup type="radio" name="sort" title={"Sort by age"} bsSize="large" defaultValue={"asc"} onChange={this.handleSort}>
+                <ToggleButtonGroup type="radio" name="sort" title={"Sort by age"} bsSize="small" defaultValue={"asc"} onChange={this.handleSort}>
                   <ToggleButton value={"asc"}>Ascending</ToggleButton>
                   <ToggleButton value={"desc"}>Descending</ToggleButton>
                 </ToggleButtonGroup>

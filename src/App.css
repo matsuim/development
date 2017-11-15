@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-html {
-    -moz-transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-}
-
 .App {
-  transform: scale(0.5);
-  transform-origin: 0 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -17,35 +9,35 @@ html {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 9em;
+  letter-spacing: 5px;
+  font-size: 4.5em;
   text-align: center;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 17px;
   font-weight: 700;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  margin-top: 30px;
-  font-size: 30px;
-  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-right: 10px;
 }
 
 p {
-  font-size: 24px;
+  font-size: 12px;
 }
 
 .controls_list {
   display: grid;
-  grid-template-rows: 200px 100px 1fr;
-  grid-template-columns: 1fr 1fr 15em 1fr 1fr;
+  grid-template-rows: 100px 50px 1fr;
+  grid-template-columns: 1fr 1fr 7.5em 1fr 1fr;
 }
 
 .app-head {
@@ -56,8 +48,8 @@ p {
 
 .textbox {
   width: 15em;
-  height: 40px;
-  font-size: 30px;
+  height: 20px;
+  font-size: 15px;
 }
 
 .controls {
@@ -65,9 +57,9 @@ p {
   position: sticky;
   top: 0px;
   width: 100vw;
-  height: 100px;
-  padding-right: 22em;
-  padding-left: 22em;
+  height: 50px;
+  padding-right: 11em;
+  padding-left: 11em;
   grid-row: 2;
   background-color: #eee;
   justify-content: space-around;
@@ -75,9 +67,9 @@ p {
 
 .individual_control {
   display: flex;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px;
   text-align: center;
   align-self: center;
 }
@@ -104,33 +96,33 @@ p {
 }
 
 .filter-list {
-  margin-top: 40px;
+  margin-top: 20px;
   grid-row: 3;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 7.5em;
+  padding-right: 7.5em;
 }
 
 .list-entry {
-  width: 400px;
+  width: 200px;
   height: auto;
   display: inline-block;
   background-color: white;
   border-radius: 5px;
   /*border: 1px solid #ACAFB1;*/
-  margin: 120px;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin: 60px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .list-entry img {
-  margin: 10px;
+  margin: 5px;
   margin-bottom: 0px;
-  width: 380px;
+  width: 190px;
 }
 
 .list-entry p,h2 {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .list-entry p {
